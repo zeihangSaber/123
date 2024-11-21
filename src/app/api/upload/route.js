@@ -8,10 +8,10 @@ import dayjs from 'dayjs'
 import OSS from 'ali-oss'
 
 const client = new OSS({
-  region: '11',
-  accessKeyId: '11',
-  accessKeySecret: '11',
-  bucket: '11',
+  region: 'oss-cn-beijing',
+  accessKeyId: 'LTAI5tH19o9V5bRGuMSFDo4Y',
+  accessKeySecret: 'h0oIBTs5gGyTNmLTmlyBdQjU8SNrXG',
+  bucket: 'encode-studio-upload',
 })
 
 export async function POST(req, res) {
