@@ -9,8 +9,8 @@ import OSS from 'ali-oss'
 
 const client = new OSS({
   region: 'oss-cn-beijing',
-  accessKeyId: 'LTAI5tH19o9V5bRGuMSFDo4Y',
-  accessKeySecret: 'h0oIBTs5gGyTNmLTmlyBdQjU8SNrXG',
+  accessKeyId: '111',
+  accessKeySecret: '111',
   bucket: 'encode-studio-upload',
 })
 
